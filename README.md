@@ -25,6 +25,21 @@ Economics graduate turning business data into decisions. I combine SQL, Python a
 
 → [View project](./Coffee%20Quality%20And%20Pricing%20Analysis)
 
+### 📈 Coffee Price Risk: What the Arabica Boom Means for Ethiopia
+Python · pandas · statsmodels · matplotlib · uv
+
+**Question:** How risky are today's coffee prices, and what could price swings mean for Ethiopia's coffee export revenue?
+
+* Cleaned 66 years of World Bank monthly prices (1960–2026, 802 months) into a tidy Arabica and Robusta series
+* Arabica costs 2.04x Robusta, above its post-1990 average of 1.82x and higher than 69% of months since 1990; the premium nearly vanished in 2024 (≈1.2x)
+* Identified two market eras: a stable premium under the coffee quota system until 1989, volatile since, which makes the 66-year average misleading
+* Recent volatility (7.3% typical monthly swing) is only slightly above the post-1990 norm (6.6%): high prices, not chaos
+* An ARIMA model did not beat a "no change" forecast in a 12-month backtest (19.0% vs 17.8% error), so I reported an 80% range ($4.97–$11.02/kg by October 2027) instead of a single forecast
+* Translated that range into Ethiopia's export revenue: about $2.0–4.5 billion per year, versus about $3.0 billion today
+
+**Use case:** helps exporters, banks and policymakers size how much coffee price swings put Ethiopia's foreign-currency earnings at risk.
+→ [View project](https://github.com/yeabgetu/Data_Analyst/tree/main/ethiopia-coffee-premium)
+
 ### 🛒 E-Commerce Product Analysis
 **PostgreSQL · Python · Power BI**
 
@@ -50,7 +65,7 @@ Economics graduate turning business data into decisions. I combine SQL, Python a
 - Migrated 25,000 sessions and 3,037 orders from PostgreSQL to BigQuery and validated the move (0 duplicates, 0 cross-table mismatches)
 - **Mobile checkout converts 2.9 points lower** (34.3% vs 37.2% of carts, p ≈ 0.005, 95% CI −5.0 to −0.9), tested with a two-proportion z-test after a power analysis
 - **Not a traffic-mix effect:** the gap is unchanged after adjusting for channel (Cochran–Mantel–Haenszel) and is concentrated in Paid Social (−8.1 points)
-- Checkout gap costs ~$7,800/year; mobile's lower add-to-cart rate is a bigger lever (~$20,300/year)
+- Checkout gap costs about $7,800/year; mobile's lower add-to-cart rate is a bigger lever ( about $20,300/year)
 - Forecast Q1 2026 revenue at ~$16,300/month with BigQuery ML ARIMA_PLUS (backtest MAPE 2.9%)
 
 **Use case:** points the team to mobile product pages and the Paid Social checkout journey, with a randomized A/B test to confirm the fix.
