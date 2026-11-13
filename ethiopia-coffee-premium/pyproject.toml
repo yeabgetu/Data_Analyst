@@ -1,0 +1,21 @@
+[project]
+name = "ethiopia-coffee-premium"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "matplotlib>=3.11.2",
+    "openpyxl>=3.1.5",
+    "pandas>=3.1.1",
+    "requests>=2.34.2",
+    "statsmodels>=0.15.0",
+]
+
+[project.scripts]
+ethiopia-coffee-premium = "ethiopia_coffee_premium:main"
+
+[build-system]
+requires = ["uv_build>=0.13.8,<0.14.0"]
+build-backend = "uv_build"
