@@ -1,0 +1,7 @@
+destination_name,firms,banks,bank_avg,others_avg,cheapest,bank_under_1h,others_under_1h,bank_premium_pts,bank_cost_per_year_usd,saving_at_40pct_usd
+China,6,3,15.51,8.4,3.76,0.0,0.33,7.11,18608.0,7443.2
+India,7,1,13.51,7.41,3.15,0.0,0.33,6.1,16212.0,6484.8
+Kenya,10,1,12.91,6.72,2.35,0.0,0.61,6.19,15492.0,6196.8
+Tanzania,7,1,11.89,9.36,6.67,0.0,0.67,2.53,14268.0,5707.2
+Nigeria,8,2,10.69,8.1,3.84,0.0,0.33,2.59,12828.0,5131.2
+Mozambique,10,2,10.12,7.59,4.45,0.0,0.75,2.53,12141.0,4856.4
