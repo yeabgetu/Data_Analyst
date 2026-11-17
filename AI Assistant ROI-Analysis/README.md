@@ -7,6 +7,7 @@
 - **The most common task fails most often.** Factual questions made up 28% of conversations and failed 22% of the time, often from invented facts.
 - **6.7 minutes saved per conversation** (95% CI 5.8–7.7), about **112 hours per 1,000 conversations**.
 - **The result holds under every assumption:** 3.3 minutes saved in the pessimistic scenario, 9.4 in the optimistic one.
+<img width="1315" height="730" alt="AI ROI Dashboard" src="https://github.com/user-attachments/assets/8da07f1e-7e36-4122-9245-632bd69c9508" />
 
 ## Data
 193 English, non-toxic conversations sampled from the public [WildChat-1M](https://huggingface.co/datasets/allenai/WildChat-1M) dataset. 5 conversations were excluded for sexual or fetish content that passed the dataset's toxicity filter. Raw conversations are not published; only labels and aggregated results.
