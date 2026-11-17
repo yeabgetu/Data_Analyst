@@ -1,5 +1,5 @@
 [project]
-name = "nebuly-roi"
+name = "ai_assistant_roi"
 version = "0.1.0"
 readme = "README.md"
 requires-python = ">=3.14"
@@ -12,7 +12,7 @@ dependencies = [
 ]
 
 [project.scripts]
-nebuly-roi = "nebuly_roi:main"
+ai_assistant-roi = "ai_assistant_roi:main"
 
 [build-system]
 requires = ["uv_build>=0.13.8,<0.14.0"]
