@@ -51,7 +51,7 @@ The forecast line is flat because past prices give little reliable signal about 
 
 - **Prices are nominal**, not adjusted for inflation. In real terms, the 1977 spike was larger than today's.
 - **The revenue scenario is simplified.** It assumes Ethiopian export prices move by the same percentage as world Arabica and that volumes stay constant. In reality, Ethiopian specialty coffee prices may not move one-for-one with world prices.
-- **Export figures** (~$3 billion, ~$7,500/tonne in 2025/26) are Ethiopian Coffee and Tea Authority figures as reported in the news: [add source link].
+- **Export figures** (~$3 billion, ~$7,500/tonne in 2025/26) are Ethiopian Coffee and Tea Authority figures as reported in the news
 
 ## Project Structure
 
